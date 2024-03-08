@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <header>
-    <div id="navigationBar" class="container">
+      <div id="navigationBar" class="container">
         <p>Programming Task 4</p>
         <nav>
           <ul>
@@ -20,32 +19,83 @@
           </ul>
         </nav>
       </div>
-    </header> 
+    </header>
 
-    <section id="triangle">
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
+    <section id="triangleSection">
+      <div class="containerDiv">
+        <div class="divLateral">
+          <h3>Lados</h3>
+          <div>
+            <label for="number">A:</label>
+            <input
+              type="number"
+              id="txtSide"
+              required
+            />
+          </div>
+          <div>
+            <label for="number">B:</label>
+            <input
+              type="number"
+              id="txtSide"
+              required
+            />
+          </div>
+          <div>
+            <label for="number">C:</label>
+            <input
+              type="number"
+              id="txtSide"
+              required
+            />
+          </div>
         </div>
+        <div class="divCentral"></div>
+        <div class="divLateral">
+            <h3>Angulos</h3>
+          <div>
+            <label for="number">a1:</label>
+            <input
+              type="number"
+              id="txtSide"
+              required
+            />
+          </div>
+          <div>
+            <label for="number">a2:</label>
+            <input
+              type="number"
+              id="txtSide"
+              required
+            />
+          </div>
+          <div>
+            <label for="number">a3:</label>
+            <input
+              type="number"
+              id="txtSide"
+              required
+            />
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer>
-        <div id="copyright">
-          <div id="footPage" class="container">
-            <a href="#" target="_blank"
-              ><img src="media/facebookIcon.svg" alt=""
-            /></a>
-            <a href="#" target="_blank"
-              ><img src="media/twitterIcon.svg" alt=""
-            /></a>
-            <a href="#" target="_blank"
-              ><img src="media/instagramIcon.svg" alt=""
-            /></a>
-          </div>
-          <small>&copy All rights reserved</small>
+      <div id="copyright">
+        <div id="footPage" class="container">
+          <a href="#" target="_blank"
+            ><img src="media/icons/facebookIcon.svg" alt=""
+          /></a>
+          <a href="#" target="_blank"
+            ><img src="media/icons/twitterIcon.svg" alt=""
+          /></a>
+          <a href="#" target="_blank"
+            ><img src="media/icons/instagramIcon.svg" alt=""
+          /></a>
         </div>
-      </footer>
-
-</body>
+        <small>&copy All rights reserved</small>
+      </div>
+    </footer>
+  </body>
 </html>
